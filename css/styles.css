@@ -232,6 +232,7 @@ input:focus {
 .swiper-container {
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .swiper-slide {
@@ -338,6 +339,14 @@ input:focus {
 .cart {
     padding-bottom: 20px;
     font-size: 15px;
+}
+
+.swiper-button-next {
+    right: 0px;
+}
+
+.swiper-button-prev {
+    left: 0;
 }
 
 
@@ -490,6 +499,7 @@ footer i {
     /* navbar */
     .inner-width {
         margin: 0 20px;
+        padding: 0 20px;
     }
     .menu-toggler {
         display: block;
@@ -557,6 +567,9 @@ footer i {
     /* kitchen */
     .kitchen-top p {
         font-size: 22px;
+    }
+    .swiper-slide {
+        box-shadow: 0 0 0 0;
     }
     .slider-name {
         font-size: 24px;
