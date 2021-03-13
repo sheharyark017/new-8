@@ -565,8 +565,11 @@ footer i {
     }
     /* end search */
     /* kitchen */
+    .kitchen {
+        margin: 100px 40px;
+    }
     .kitchen-top p {
-        font-size: 22px;
+        font-size: 25px;
     }
     .swiper-slide {
         box-shadow: 0 0 0 0;
@@ -598,7 +601,7 @@ footer i {
         margin: 0 40px;
     }
     .app-top p {
-        font-size: 22px;
+        font-size: 25px;
     }
     .app-image img {
         height: 250px;
