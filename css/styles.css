@@ -29,7 +29,7 @@ a:hover {
 
 .top-image {
     background-image: url("https://bit.ly/3vn0DaX");
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
