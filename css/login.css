@@ -267,6 +267,12 @@ footer i {
 }
 
 @media screen and (max-width: 980px) {
+    body {
+        background: none;
+    }
+    .overlay {
+        background: rgba(0, 0, 0, 0)
+    }
     /* navbar */
     .inner-width {
         margin: 0 20px;
@@ -321,9 +327,6 @@ footer i {
     .form-name {
         margin-bottom: 80px;
     }
-    .form-name p {
-        color: #fff;
-    }
     .container {
         all: initial;
     }
@@ -345,14 +348,6 @@ footer i {
     }
     input {
         background: none;
-        border-bottom: 1px solid #fff;
-        color: #fff;
-    }
-    input::placeholder {
-        color: #ccc;
-    }
-    label i {
-        color: #fff;
     }
     .login-link {
         text-decoration: underline;

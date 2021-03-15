@@ -13,8 +13,6 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
-    height: auto;
 }
 
 a {
@@ -268,6 +266,13 @@ footer i {
 }
 
 @media screen and (max-width: 980px) {
+    body {
+        font-family: 'Nunito', sans-serif;
+        background: none;
+    }
+    .overlay {
+        background: rgba(0, 0, 0, 0);
+    }
     /* navbar */
     .inner-width {
         margin: 0 20px;
@@ -322,9 +327,6 @@ footer i {
     .form-name {
         margin-bottom: 80px;
     }
-    .form-name p {
-        color: #fff;
-    }
     .container {
         all: initial;
     }
@@ -339,26 +341,17 @@ footer i {
         background: transparent;
         width: 100%;
         margin: auto;
-        height: 100vh;
+        /* height: 100vh; */
         padding: 30px 0;
         margin-top: 70px;
         border-radius: 10px;
     }
     input {
         background: none;
-        border-bottom: 1px solid #fff;
-        color: #fff;
-    }
-    input::placeholder {
-        color: #ccc;
-    }
-    label i {
-        color: #fff;
     }
     .login-link {
         text-decoration: underline;
         font-size: 12px;
-        margin-bottom: 200px;
     }
     /* footer */
     .footer-col {
