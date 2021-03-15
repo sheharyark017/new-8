@@ -7,10 +7,12 @@
 
 body {
     background-image: url("https://bit.ly/3vn0DaX");
-    height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 a {

@@ -648,6 +648,9 @@ footer i {
     .navbar .nav-item .dropdown-menu {
         display: none;
     }
+    .navbar-nav {
+        padding-left: 40px;
+    }
     .navbar .nav-item:hover .nav-link {
         color: #fff;
     }
