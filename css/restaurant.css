@@ -348,6 +348,14 @@ footer i {
     .product-col {
         width: 50%;
     }
+    .product-image img {
+        width: 100%;
+        height: 200px;
+    }
+    .cart a {
+        font-size: 15px;
+        padding: 5px 11px;
+    }
     /* end product */
     /* footer */
     .footer-col {
