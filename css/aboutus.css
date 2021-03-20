@@ -31,7 +31,6 @@ a:hover {
 /* navbar */
 
 .navbar-top {
-    background-color: #0084d1;
     position: fixed;
     padding-top: 10px;
     z-index: 999;
@@ -105,96 +104,88 @@ a:hover {
 /* end navbar */
 
 
-/* restaurant */
+/* about us head */
 
-.restaurant {
-    background-color: #05cc80;
-    padding-top: 150px;
-    padding-bottom: 50px;
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 140px;
+}
+
+.aboutus-head {
+    background-image: url("https://bit.ly/3vn0DaX");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aboutus-head-text {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.aboutus-head-text p {
+    font-size: 60px;
+    font-weight: 700;
     color: #fff;
 }
 
-.left-col {
-    width: 50%;
+
+/* end about us head */
+
+
+/* about us content */
+
+
+/* about us text */
+
+.about-col {
+    padding: 20px;
 }
 
-.left-col p {
-    font-size: 48px;
+.about-text-col {
+    width: 60%;
+}
+
+.aboutus-content {
+    padding: 80px 0px 20px;
+}
+
+.aboutus-content-head {
+    text-align: center;
+}
+
+.aboutus-content-head p {
+    padding-bottom: 20px;
+    font-size: 40px;
     font-weight: 700;
 }
 
-.right-col {
-    width: 50%;
-}
-
-.right-col p {
-    font-size: 25px;
-    font-weight: 600;
-    padding-top: 20px;
-}
-
-
-/* end restaurant */
-
-
-/* product */
-
-.product-head {
-    text-align: center;
-    padding: 50px 0 30px;
-}
-
-.product-head p {
-    font-size: 38px;
-    font-weight: 600;
-}
-
-.product-col {
-    width: 25%;
-    padding: 10px 15px 50px;
-}
-
-.product-image img {
-    width: 100%;
-    height: 250px;
-}
-
-.product-details {
-    text-align: center;
-    padding: 20px 0 5px 0;
-}
-
-.product-details p:nth-child(1) {
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.product-details p:nth-child(2) {
-    font-weight: 600;
+.aboutus-content-body p {
     color: #606060;
 }
 
-.cart {
-    text-align: center;
+
+/* end about us text */
+
+
+/* about us image */
+
+.about-image-col {
+    width: 40%;
+    padding-top: 20px;
 }
 
-.cart a {
-    background-color: #05cc80;
-    padding: 6px 12px;
-    border-radius: 999px;
-    color: #fff;
-}
-
-.cart a:hover {
-    background-color: #00b36e;
-    padding: 6px 12px;
-    border-radius: 999px;
-    color: #fff;
-    transition: .3s;
+img {
+    width: 100%;
 }
 
 
-/* end product */
+/* end about us image */
+
+
+/* end about us content */
 
 
 /* footer */
@@ -326,50 +317,6 @@ footer i {
         bottom: 14px;
     }
     /* end navbar */
-    /* restaurants */
-    .restaurant {
-        padding: 100px 0 30px;
-    }
-    .left-col {
-        width: 100%;
-        text-align: center;
-    }
-    .left-col p {
-        font-size: 44px;
-        font-weight: 700;
-    }
-    .right-col {
-        width: 100%;
-        text-align: center;
-    }
-    .right-col p {
-        font-size: 25px;
-        font-weight: 600;
-        padding-top: 20px;
-    }
-    /* end restaurant */
-    /* product */
-    .product-head {
-        text-align: center;
-        padding: 35px 0 17px;
-    }
-    .product-head p {
-        font-size: 26px;
-        font-weight: 600;
-    }
-    .product-col {
-        width: 50%;
-        padding: 10px 10px 50px;
-    }
-    .product-image img {
-        width: 100%;
-        height: 200px;
-    }
-    .cart a {
-        font-size: 15px;
-        padding: 5px 11px;
-    }
-    /* end product */
     /* footer */
     .footer-col {
         width: 100%;
