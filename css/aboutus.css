@@ -317,6 +317,28 @@ footer i {
         bottom: 14px;
     }
     /* end navbar */
+    /* about us  */
+    .about-col {
+        padding: 5px 30px;
+    }
+    .about-text-col {
+        width: 100%;
+    }
+    .aboutus-content {
+        padding: 40px 0px 0px;
+    }
+    .aboutus-content-head p {
+        padding-bottom: 20px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .about-image-col img {
+        display: none;
+    }
+    .about-image-col {
+        width: 100%;
+    }
+    /* end about us */
     /* footer */
     .footer-col {
         width: 100%;
