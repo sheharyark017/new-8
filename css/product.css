@@ -288,7 +288,7 @@ footer i {
     position: fixed;
     height: 100vh;
     width: 70%;
-    background-color: #0084d1;
+    background-color: #ff9933;
     top: 0;
     right: -100%;
     padding: 90px 20px;
@@ -296,7 +296,7 @@ footer i {
     z-index: 998;
   }
   .sticky .navbar-menu {
-    background-color: #05cc80;
+    background-color: #ff9933;
   }
   .navbar-menu a {
     color: #fff;
@@ -323,14 +323,16 @@ footer i {
   }
   /* end navbar */
   /* product */
-  .container {
-    padding: 100px 40px;
-  }
   .image-col {
     width: 100%;
   }
-  .details-col {
+  .image-col img{
     width: 100%;
+  }
+  .details-col {
+    margin: 20px;
+    width: 100%;
+    padding: 0;
   }
   .price-col p {
     color: #606060;
@@ -343,7 +345,7 @@ footer i {
     width: 100%;
   }
   .inner-footer {
-    margin: 40px 30px 0;
+    margin: 0px 20px;
   }
   .footer-col h3 {
     margin-bottom: 15px;

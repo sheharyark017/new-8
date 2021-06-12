@@ -309,7 +309,7 @@ footer i {
     position: fixed;
     height: 100vh;
     width: 70%;
-    background-color: #0084d1;
+    background-color: #ff9933;
     top: 0;
     right: -100%;
     padding: 90px 20px;
@@ -317,7 +317,7 @@ footer i {
     z-index: 998;
   }
   .sticky .navbar-menu {
-    background-color: #05cc80;
+    background-color: #ff9933;
   }
   .navbar-menu a {
     color: #fff;
@@ -352,7 +352,7 @@ footer i {
     text-align: center;
   }
   .left-col p {
-    font-size: 44px;
+    font-size: 35px;
     font-weight: 700;
   }
   .right-col {
@@ -360,39 +360,52 @@ footer i {
     text-align: center;
   }
   .right-col p {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
     padding-top: 20px;
   }
   /* end restaurant */
   /* product */
-  .product-head {
-    text-align: center;
-    padding: 35px 0 17px;
+
+  .image-top p{
+    font-size: 16px;
   }
-  .product-head p {
-    font-size: 26px;
+  .food-product{
+    padding: 10px 5px;
+  }
+  .products-section{
+    padding: 10px 5px;
+  }
+  
+  .product-details p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 700;
+    color: #e9b60e;
+  }
+  
+  .product-details p:nth-child(2) {
+    font-size: 14px;
     font-weight: 600;
+    color: #606060;
   }
+
   .product-col {
     width: 50%;
-    padding: 10px 10px 50px;
+    padding: 10px 5px 30px;
   }
+
   .product-image img {
-    width: 100%;
-    height: 200px;
+    height: 100px;
+    width: 100px;
   }
-  .cart a {
-    font-size: 15px;
-    padding: 5px 11px;
-  }
+
   /* end product */
   /* footer */
   .footer-col {
     width: 100%;
   }
   .inner-footer {
-    margin: 40px 30px 0;
+    margin: 0px 20px;
   }
   .footer-col h3 {
     margin-bottom: 15px;
